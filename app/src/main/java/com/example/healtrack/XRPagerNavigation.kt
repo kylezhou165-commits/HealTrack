@@ -26,9 +26,9 @@ data class NavigationItem(
 @Composable
 fun XRPagerNavigation(modifier: Modifier = Modifier) {
     val navItems = listOf(
-        NavigationItem("New Wounds", Icons.Default.Add),
-        NavigationItem("Logged Wounds", Icons.Default.List),
-        NavigationItem("Settings", Icons.Default.Settings)
+        NavigationItem("New Wounds", Icons.Default.Add),//temp
+        NavigationItem("Logged Wounds", Icons.Default.List),//temp
+        NavigationItem("Settings", Icons.Default.Settings)//temp
     )
 
     val pagerState = rememberPagerState(pageCount = { navItems.size })
