@@ -22,9 +22,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-// 1. Define a structured data class for your XR Navigation items
-
-
 @Composable
 fun MainScreen() {
     Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
